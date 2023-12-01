@@ -1,0 +1,58 @@
+@import url("styles/layout-mobile.scss");
+@import url("styles/layout-tablet.scss");
+@import url("styles/layout-tablet-large.scss");
+@import url("styles/layout-desktop.scss");
+
+// Fonts
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url("./styles/fonts/josefin-sans-bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Josefin Sans Regular";
+  src: url("./styles/fonts/josefin-sans-regular.ttf") format("truetype");
+}
+
+// Colours
+:root {
+  --colour-black: #000000;
+  --colour-mine-shaft: #222222;
+  --colour-boulder: #747474;
+  --colour-midnight-blue: #003164;
+  --colour-venice-blue: #0C6394;
+  --colour-light-blue: #3879C7;
+  --colour-tapestry: #AD4C96;
+  --colour-tango: #F08519;
+  --colour-bahama-blue: #006296;
+  --colour-sushi: #83AA37;
+  --colour-supernova: #FDC502;
+  --colour-alto: #DDDDDD;
+  --colour-alabaster: #F7F7F7;
+  --colour-porcelain: #F0F4F5;
+  --colour-white: #FFFFFF;
+}
+
+// General settings
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans Regular";
+  color: var(--colour-boulder);
+}
+
+a {
+  color: var(--colour-venice-blue);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--colour-light-blue);
+    transition: 0.3s;
+  }
+}

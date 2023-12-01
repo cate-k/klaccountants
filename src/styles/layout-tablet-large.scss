@@ -1,0 +1,231 @@
+@media (min-width: 1024px) {
+  // General settings
+  .page-banner {
+    h1 {
+      padding-top: 10%;
+    }
+  }
+
+  .page-divider {
+    width: 60%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  // Navigation
+  .banner {
+    display: flex;
+
+    span {
+      width: 30%;
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      text-align: right;
+      margin-right: 3%;
+    }
+  }
+
+  .nav-icon {
+    height: 2rem;
+    width: 2rem;
+    margin: auto;
+    margin-left: 3%;
+  }
+
+  .logo {
+    width: 45%;
+  }
+
+  .menu {
+    margin-top: 24.5%;
+  }
+
+  // Footer
+  .footer-info {
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .xero-badge {
+    height: 40%;
+    width: 40%;
+    margin-right: 4%;
+  }
+
+  .quickbooks-badge {
+    height: 20%;
+    width: 20%;
+  }
+
+  // Privacy Policy
+  .privacy-policy {
+    h1 {
+      padding: 0;
+    }
+
+    p {
+      margin-top: 2%;
+      margin-bottom: 3%;
+    }
+
+    .policy-heading {
+      margin-top: 5%;
+      margin-bottom: 3%;
+    }
+  }
+
+  // Automatic Pop-Up
+  .pop-up {
+    .pop-up-content {
+      h3 {
+        margin-top: 5%;
+      }
+
+      p {
+        width: 80%;
+      }
+
+      input {
+        width: 55%;
+        margin-bottom: 4%;
+      }
+
+      .submit-email {
+        width: 25%;
+        margin-bottom: 5%;
+        padding: 2%;
+      }
+    }
+  }
+
+  .pop-up-card {
+    height: 64%;
+    width: 70%;
+    margin-top: 12%;
+  }
+
+  // Home
+  .home {
+    .home-heading {
+      margin-top: 5%;
+    }
+
+    p {
+      margin-top: 2%;
+    }
+  }
+
+  .home-img {
+    height: 22rem;
+
+    h1 {
+      padding-top: 15%;
+    }
+  }
+
+  .info-boxes {
+    margin-top: 5%;
+  }
+
+  .info-box {
+    margin-bottom: 5%;
+  }
+
+  .heading-divider {
+    margin-bottom: 1%;
+  }
+
+  .name {
+    padding-top: 5%;
+  }
+
+  .why-info-section {
+    h2 {
+      margin-top: 8%;
+    }
+
+    p:last-child {
+      margin-bottom: 5%;
+    }
+  }
+
+  // About Us
+  .about-us {
+    h2 {
+      margin-top: 5%;
+    }
+
+    p {
+      margin-top: 2%;
+    }
+
+    li {
+      margin-top: 2%;
+    }
+  }
+
+  // Blog
+  .blog-post {
+    margin-bottom: 8%;
+  }
+
+  .blog-img {
+    margin-top: 5%;
+  }
+
+  .blog-content {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    li {
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+  }
+
+  .blog-post-bg-img {
+    h1 {
+      padding-top: 18%;
+    }
+
+    .date {
+      margin-top: 5%;
+    }
+  }
+
+  // Free Resources
+  .free-resources {
+    h1 {
+      padding: 0;
+    }
+
+    .resources-heading {
+      margin-top: 0;
+      margin-bottom: 3%;
+    }
+
+    .disclaimer {
+      margin-bottom: 4%;
+    }
+  }
+
+  // Contact Us
+  .contact-us-banner {
+    h1 {
+      padding-top: 8%;
+    }
+
+    p {
+      margin-top: 3%;
+    }
+  }
+
+  .location-img {
+    width: 50%;
+    margin-bottom: 5%;
+  }
+}

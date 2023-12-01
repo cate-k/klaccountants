@@ -1,0 +1,360 @@
+@media (min-width: 768px) {
+  // General settings
+  p, span, li {
+    font-size: 1.8rem;
+  }
+
+  .page-banner {
+    h1 {
+      padding-top: 14%;
+    }
+  }
+
+  .page-divider {
+    width: 70%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .divider {
+    margin-bottom: 5%;
+  }
+
+  // Navigation
+  .banner {
+    padding: 0.5%;
+
+    span {
+      margin-left: 2%;
+    }
+  }
+
+  .nav-icon {
+    margin-bottom: -0.5%;
+  }
+
+  .logo {
+    width: 60%;
+    margin-left: 5%;
+  }
+
+  .menu-button-container {
+    width: 50px;
+
+    .menu-text-button {
+      font-size: 1.5rem;
+      margin-top: 60%;
+      margin-right: 300%;
+    }
+  }
+
+  .menu {
+    margin-top: 39%;
+  }
+
+  // Footer
+  .footer-info {
+    h2 {
+      font-size: 1.8rem;
+    }
+  }
+
+  .footer-heading {
+    font-size: 1.8rem;
+  }
+
+  .social-icons {
+    a {
+      padding: 4%;
+    }
+  }
+
+  .tax-badge {
+    height: 30%;
+    width: 30%;
+    margin-top: 4%;
+  }
+
+  .xero-badge {
+    height: 70%;
+    width: 70%;
+  }
+
+  .quickbooks-badge {
+    height: 35%;
+    width: 35%;
+  }
+
+  .bark-badges {
+    display: flex;
+    justify-content: center;
+  }
+
+  .bark-badge {
+    width: 90%;
+  }
+
+  // Privacy Policy
+  .privacy-policy {
+    h1 {
+      font-size: 2rem;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    p {
+      margin-top: 4%;
+      margin-bottom: 4%;
+    }
+
+    li {
+      margin: 2%;
+      margin-left: 5%;
+    }
+
+    .policy-heading {
+      font-size: 1.8rem;
+      margin-top: 7%;
+    }
+
+    .address {
+      line-height: 0.1rem;
+    }
+  }
+
+  // Automatic Pop-Up
+  .pop-up {
+    .pop-up-content {
+      h3 {
+        font-size: 2.2rem;
+        margin-top: 8%;
+        margin-bottom: 3%;
+      }
+
+      p {
+        font-size: 1.5rem;
+        width: 90%;
+      }
+
+      input {
+        width: 70%;
+        margin-top: 4%;
+        margin-bottom: 6%;
+      }
+
+      .submit-email {
+        width: 30%;
+        margin-bottom: 6%;
+        padding: 3%;
+      }
+    }
+  }
+
+  .pop-up-card {
+    height: 55%;
+    margin-top: 24%;
+
+    .pop-up-disclaimer {
+      font-size: 1.5rem;
+    }
+  }
+
+  // Home
+  .home {
+    p {
+      margin-top: 4%;
+    }
+  }
+
+  .home-img {
+    height: 20rem;
+
+    h1 {
+      font-size: 2rem;
+      padding-top: 18%;
+    }
+  }
+
+  .info-boxes {
+    margin-top: 8%;
+  }
+
+  .info-box {
+    width: 75%;
+  }
+
+  .info-icon-container {
+    width: 15%;
+    padding: 7%;
+  }
+
+  .info-heading {
+    margin-top: 5%;
+  }
+
+  .parallax-container {
+    min-height: 720px;
+  }
+
+  .testimonials-heading {
+    p {
+      padding-top: 10%;
+    }
+  }
+
+  .slide-text, .name, .role {
+    font-size: 1.4rem;
+  }
+
+  .why-info-section {
+    h2 {
+      margin-top: 10%;
+    }
+
+    p:last-child {
+      margin-bottom: 8%;
+    }
+  }
+
+  .financial-services-section {
+    h2 {
+      margin-top: 10%;
+      margin-bottom: 5%;
+    }
+
+    .contact-link {
+      p {
+        margin-bottom: 8%;
+      }
+    }
+  }
+
+  .info-square {
+    margin-top: 8%;
+
+    &:last-child {
+      margin-bottom: 8%;
+    }
+
+    .info-square-icon {
+      height: 20%;
+      width: 20%;
+    }
+  }
+
+  // About Us
+  .about-us {
+    h2 {
+      margin-top: 10%;
+    }
+
+    p {
+      width: 80%;
+      margin-top: 3%;
+    }
+
+    p:last-child {
+      margin-bottom: 5%;
+    }
+
+    li {
+      width: 70%;
+      margin-top: 3%;
+      margin-left: 12%;
+    }
+  }
+
+  // Blog
+  .blog-post {
+    margin-bottom: 10%;
+
+    h2 {
+      font-size: 2.2rem;
+    }
+  }
+
+  .blog-content {
+    margin-bottom: 10%;
+
+    li {
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
+
+  .blog-post-bg-img {
+    h1 {
+      padding-top: 20%;
+    }
+
+    .date {
+      margin-top: 8%;
+    }
+  }
+
+  // Services
+  .services {
+    h2 {
+      width: 90%;
+      margin: auto;
+      margin-top: 10%;
+    }
+
+    p {
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+  }
+
+  .blue-checkmark {
+    margin-bottom: -0.5%;
+  }
+
+  .disclaimer {
+    font-size: 1.3rem;
+  }
+
+  // Free Resources
+  .free-resources {
+    h1 {
+      font-size: 2rem;
+      padding-top: 1%;
+      padding-bottom: 1%;
+    }
+
+    li {
+      margin: 2%;
+      margin-left: 5%;
+    }
+
+    .links {
+      font-size: 1.8rem;
+    }
+
+    .disclaimer {
+      margin-top: 2%;
+    }
+  }
+
+  .resources-heading {
+    font-size: 2rem;
+  }
+
+  // Contact Us
+  .contact-us-banner {
+    h1 {
+      padding-top: 10%;
+    }
+  }
+
+  .location-img {
+    width: 70%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .map {
+    height: 765px;
+    width: 100%;
+  }
+}
