@@ -10,6 +10,8 @@ const Home = () => {
   const [isPopUpOpen, setPopUpOpen] = useState(false);
   const [isPopUpClosed, setPopUpClosed] = useState(false);
   const [hasJoined, setHasJoined] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const form = useRef();
 
   // Set the page's title
@@ -60,19 +62,28 @@ const Home = () => {
     init();
   });
 
+  const handleNameChange = (event) => {
+    setName(event.target.value);
+  };
+
+  const handleEmailChange = (event) => {
+    setEmail(event.target.value);
+  };
+
   const sendEmail = (event) => {
     event.preventDefault();
-
-    emailjs.sendForm(
-      process.env.REACT_APP_SERVICE_ID,
-      process.env.REACT_APP_TEMPLATE_ID,
-      form.current,
-      process.env.REACT_APP_USER_ID
-    ).then(() => {
-      setHasJoined(true);
-    }, (err) => {
-      console.log(err.text);
-    });
+    if (name != "" && email != "") {
+      emailjs.sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_USER_ID
+      ).then(() => {
+        setHasJoined(true);
+      }, (err) => {
+        console.log(err.text);
+      });
+    }
   };
 
   return (
@@ -97,13 +108,15 @@ const Home = () => {
                     name="name"
                     type="text"
                     placeholder="Name"
+                    onChange={handleNameChange}
                   />
 
                   <input
                     className="email-field"
                     name="email"
-                    type="text"
+                    type="email"
                     placeholder="Email"
+                    onChange={handleEmailChange}
                   />
 
                   <input className="submit-email" type="submit" value="Subscribe" />

@@ -44,6 +44,10 @@ import BlogPostTwentyOne from "./components/posts/property-investors-take-note";
 import BlogPostTwentyTwo from "./components/posts/setting-up-a-foreign-company-in-a-low-tax-country";
 import BlogPostTwentyThree from "./components/posts/proposed-tax-on-super-balances-over-3m";
 import BlogPostTwentyFour from "./components/posts/small-business-20k-instant-asset-write-off-until-30-june-2024";
+import BlogPostTwentyFive from "./components/posts/ato-tax-rate-changes-from-1-july-2024";
+import BlogPostTwentySix from "./components/posts/buying-an-electric-vehicle-for-your-business-with-fbt-exemption";
+import BlogPostTwentySeven from "./components/posts/tax-planning-before-30-june-2024";
+import BlogPostTwentyEight from "./components/posts/tax-reminders-for-june-and-july";
 
 const tagManagerArgs = {
   // Add GTM container ID
@@ -98,6 +102,10 @@ root.render(
       <Route path="/setting-up-a-foreign-company-in-a-low-tax-country" render={(props) => <BlogPostTwentyTwo {...props} />} />
       <Route path="/proposed-tax-on-super-balances-over-3m" render={(props) => <BlogPostTwentyThree {...props} />} />
       <Route path="/small-business-20k-instant-asset-write-off-until-30-june-2024" render={(props) => <BlogPostTwentyFour {...props} />} />
+      <Route path="/ato-tax-rate-changes-from-1-july-2024" render={(props) => <BlogPostTwentyFive {...props} />} />
+      <Route path="/buying-an-electric-vehicle-for-your-business-with-fbt-exemption" render={(props) => <BlogPostTwentySix {...props} />} />
+      <Route path="/tax-planning-before-30-june-2024" render={(props) => <BlogPostTwentySeven {...props} />} />
+      <Route path="/tax-reminders-for-june-and-july" render={(props) => <BlogPostTwentyEight {...props} />} />
 
       <Redirect to="/home" />
     </Switch>

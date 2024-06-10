@@ -18,6 +18,57 @@ const Blog = () => {
       <Navigation />
 
       <div className="content">
+        <div className="blog-post">
+          <Link className="blog-link" to="/tax-reminders-for-june-and-july">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-28.jpg")}
+              alt=""
+            />
+            <h2>Tax Reminders for June and July</h2>
+            <p>Posted <span className="date">June 10, 2024</span></p>
+            <p className="description">Here are some reminders to do in June or July each year. If you have a discretionary trust (commonly called, a family trust)...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/tax-planning-before-30-june-2024">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-27.jpg")}
+              alt=""
+            />
+            <h2>Tax Planning Before 30 June 2024</h2>
+            <p>Posted <span className="date">June 10, 2024</span></p>
+            <p className="description">To lower your tax bill for this financial year, you may consider some of these tax planning strategies and implement them before...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/buying-an-electric-vehicle-for-your-business-with-fbt-exemption">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-26.jpg")}
+              alt=""
+            />
+            <h2>Buying an Electric Vehicle for Your Business, with FBT Exemption</h2>
+            <p>Posted <span className="date">June 10, 2024</span></p>
+            <p className="description">Normally if you buy a vehicle under your company name, primarily for your private use, then fringe benefits tax (FBT) will apply...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/ato-tax-rate-changes-from-1-july-2024">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-25.jpg")}
+              alt=""
+            />
+            <h2>ATO Tax Rate Changes from 1 July 2024</h2>
+            <p>Posted <span className="date">June 10, 2024</span></p>
+            <p className="description">ATO tax rates are changing from 1 July 2024. You can compare the changes from 2024-25 to the current tax rates in 2023-24...</p>
+          </Link>
+        </div>
 
         <div className="blog-post">
           <Link className="blog-link" to="/small-business-20k-instant-asset-write-off-until-30-june-2024">
