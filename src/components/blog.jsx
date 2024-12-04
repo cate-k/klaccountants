@@ -19,6 +19,45 @@ const Blog = () => {
 
       <div className="content">
         <div className="blog-post">
+          <Link className="blog-link" to="/how-much-would-1000-invested-10-years-ago-be-worth-today">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-31.jpg")}
+              alt=""
+            />
+            <h2>How Much Would $1,000 Invested 10 Years Ago be Worth Today in Bitcoin, Gold, Stocks and Property?</h2>
+            <p>Posted <span className="date">December 4, 2024</span></p>
+            <p className="description">If you had invested $1,000 ten years ago in growth assets, the tables below show you how much that USD $1,000 or AUD $1,000 would...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/super-charging-your-retirement-balance-before-retirement">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-30.jpg")}
+              alt=""
+            />
+            <h2>Super Charging Your Retirement Balance Before Retirement or Before Turning 75</h2>
+            <p>Posted <span className="date">December 4, 2024</span></p>
+            <p className="description">If you want to rapidly put money into your superannuation fund before retiring, or before turning 75 when {`you're`} retired, here are...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/employee-share-schemes">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-29.jpg")}
+              alt=""
+            />
+            <h2>Employee Share Schemes - How They Work and How They are Taxed</h2>
+            <p>Posted <span className="date">December 4, 2024</span></p>
+            <p className="description">Larger employers offer employee share schemes (ESS) as an incentive to attract and retain top talent. In Australia, ESS generally...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
           <Link className="blog-link" to="/tax-reminders-for-june-and-july">
             <img
               className="blog-img"

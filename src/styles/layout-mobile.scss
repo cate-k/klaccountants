@@ -812,6 +812,14 @@ p, li {
   tr:nth-child(even) {
     background-color: var(--colour-alto);
   }
+
+  .row-orange-bg {
+    background-color: var(--colour-jasmine);
+  }
+}
+
+.blog-post-table.centred {
+  margin: 0 auto;
 }
 
 .blog-post-one {
@@ -924,6 +932,18 @@ p, li {
 
 .blog-post-twenty-eight {
   background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-28.jpg);
+}
+
+.blog-post-twenty-nine {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-29.jpg);
+}
+
+.blog-post-thirty {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-30.jpg);
+}
+
+.blog-post-thirty-one {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-31.jpg);
 }
 
 // Services
