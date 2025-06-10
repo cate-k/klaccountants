@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e70f1d7.css",
-    "main.js": "/static/js/main.fb09ca8f.js",
+    "main.css": "/static/css/main.0b187789.css",
+    "main.js": "/static/js/main.a59168c9.js",
     "static/media/team.jpg": "/static/media/team.d2b63fdc8e1e93e6e553.jpg",
     "static/media/post-8.jpg": "/static/media/post-8.5e869c2b5f3a10ac5efa.jpg",
     "static/media/post-17.jpg": "/static/media/post-17.6d2f18c7216828f0a518.jpg",
@@ -17,6 +17,7 @@
     "static/media/post-6.jpg": "/static/media/post-6.c2bdf726d56785ff8db8.jpg",
     "static/media/post-31.jpg": "/static/media/post-31.9c7573ffe5a4e66cf660.jpg",
     "static/media/people-talking.jpg": "/static/media/people-talking.93735211a5216058e41c.jpg",
+    "static/media/post-36.jpg": "/static/media/post-36.d09a6e63e393d773e8bf.jpg",
     "static/media/post-18.jpg": "/static/media/post-18.de0e2ffca7f5a98ba48a.jpg",
     "static/media/post-12.jpg": "/static/media/post-12.9a70b3be106ebeab114e.jpg",
     "static/media/post-22.jpg": "/static/media/post-22.075179f937b9da7fee30.jpg",
@@ -24,6 +25,7 @@
     "static/media/post-29.jpg": "/static/media/post-29.ff7e140014159196d5fb.jpg",
     "static/media/group-of-coworkers.jpg": "/static/media/group-of-coworkers.3805f41f910a3334b927.jpg",
     "static/media/post-19.jpg": "/static/media/post-19.cd2e74ec655ffab786dc.jpg",
+    "static/media/post-34.jpg": "/static/media/post-34.d98183a73af58a476b78.jpg",
     "static/media/post-5.jpg": "/static/media/post-5.4632ded01d2e77bec1f2.jpg",
     "static/media/person-working-on-laptop.jpg": "/static/media/person-working-on-laptop.cbf23e57dc23a9a86ccd.jpg",
     "static/media/post-15.jpg": "/static/media/post-15.b60d29cc9f81deab7014.jpg",
@@ -34,6 +36,7 @@
     "static/media/post-24.jpg": "/static/media/post-24.4f8c19d613fbb4a569ab.jpg",
     "static/media/post-13.jpg": "/static/media/post-13.8e9036ce34583e6f0c8f.jpg",
     "static/media/post-3.jpg": "/static/media/post-3.69b505352fbe7852aa1f.jpg",
+    "static/media/post-32.jpg": "/static/media/post-32.69d9f01a83b82a672203.jpg",
     "static/media/post-7.jpg": "/static/media/post-7.038e3fb917a164776572.jpg",
     "static/media/post-4.jpg": "/static/media/post-4.403a10e38b6e4bc7ea62.jpg",
     "static/media/post-23.jpg": "/static/media/post-23.371aa64d192c27565861.jpg",
@@ -42,10 +45,12 @@
     "static/media/post-26.jpg": "/static/media/post-26.093475aad8b0efe37369.jpg",
     "static/media/post-2.jpg": "/static/media/post-2.1ed7d9d7abca32a0e520.jpg",
     "static/media/papers-on-table.jpg": "/static/media/papers-on-table.d4f794c8ccb2a99cb330.jpg",
+    "static/media/post-35.jpg": "/static/media/post-35.4c4426f57180b67d807f.jpg",
     "static/media/post-1.jpg": "/static/media/post-1.221769ddabcca47c1109.jpg",
     "static/media/post-28.jpg": "/static/media/post-28.1a5f046a076d44d285d0.jpg",
     "static/media/post-21.jpg": "/static/media/post-21.24b9430ea327b7bc029d.jpg",
     "static/media/post-16.jpg": "/static/media/post-16.e914cf86db79a25a6acb.jpg",
+    "static/media/post-33.jpg": "/static/media/post-33.67da36f0af77a6914308.jpg",
     "static/media/post-25.jpg": "/static/media/post-25.cb0cb2636c5906ebfbd5.jpg",
     "static/media/logo.png": "/static/media/logo.213f2c9ee1c61dbe7b30.png",
     "static/media/person-looking-at-papers.jpg": "/static/media/person-looking-at-papers.3a15667e765523bedb17.jpg",
@@ -58,11 +63,11 @@
     "static/media/xero-badge.png": "/static/media/xero-badge.d0fb35b1eb33f4cda4c5.png",
     "static/media/bark-badge-one.png": "/static/media/bark-badge-one.c5c02ea547f52da950ce.png",
     "index.html": "/index.html",
-    "main.0e70f1d7.css.map": "/static/css/main.0e70f1d7.css.map",
-    "main.fb09ca8f.js.map": "/static/js/main.fb09ca8f.js.map"
+    "main.0b187789.css.map": "/static/css/main.0b187789.css.map",
+    "main.a59168c9.js.map": "/static/js/main.a59168c9.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e70f1d7.css",
-    "static/js/main.fb09ca8f.js"
+    "static/css/main.0b187789.css",
+    "static/js/main.a59168c9.js"
   ]
 }
