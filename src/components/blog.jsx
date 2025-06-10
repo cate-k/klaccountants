@@ -19,6 +19,71 @@ const Blog = () => {
 
       <div className="content">
         <div className="blog-post">
+          <Link className="blog-link" to="/ato-tax-rates-for-individuals-tax-residents">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-36.jpg")}
+              alt=""
+            />
+            <h2>ATO Tax Rates for Individuals (Tax Residents)</h2>
+            <p>Posted <span className="date">June 10, 2025</span></p>
+            <p className="description">Tax Rates 2025-2026 Year: The 2026 financial year starts on 1 July 2025 and ends on 30 June 2026. Tax Scale 2025-26 (per Stage 3 tax cuts as adjusted)...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/maximise-your-2025-tax-refund">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-35.jpg")}
+              alt=""
+            />
+            <h2>Maximise Your 2025 Tax Refund</h2>
+            <p>Posted <span className="date">June 10, 2025</span></p>
+            <p className="description">You can maximise your tax refund each year by knowing what deductions you can claim: Work-related expenses - memberships, subscriptions, tools...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/tax-changes-from-1-july-2025">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-34.jpg")}
+              alt=""
+            />
+            <h2>Tax Changes from 1 July 2025</h2>
+            <p>Posted <span className="date">June 10, 2025</span></p>
+            <p className="description">From 1 July 2025, you can no longer claim an income tax deduction for ATO interest charges on unpaid tax liabilities incurred from the 2025-2026 year onwards...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/tax-planning-to-reduce-your-tax-before-june-2025">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-33.jpg")}
+              alt=""
+            />
+            <h2>Tax Planning to Reduce Your Tax Before 30 June 2025</h2>
+            <p>Posted <span className="date">June 10, 2025</span></p>
+            <p className="description">To lower your tax bill for this financial year, you may consider some of these tax planning strategies and implement them before 30 June 2025...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/unrelased-cgt-on-super-balance-over-3m">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-32.jpg")}
+              alt=""
+            />
+            <h2>The Controversial Unrealised Capital Gains Tax on Superannuation Balances over $3 Million</h2>
+            <p>Posted <span className="date">June 10, 2025</span></p>
+            <p className="description">This is the proposed Division 296 tax, commencing on 1 July 2025, on individuals with a Total Superannuation Balance (TSB) over $3 million...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
           <Link className="blog-link" to="/how-much-would-1000-invested-10-years-ago-be-worth-today">
             <img
               className="blog-img"

@@ -51,6 +51,11 @@ import BlogPostTwentyEight from "./components/posts/tax-reminders-for-june-and-j
 import BlogPostTwentyNine from "./components/posts/employee-share-schemes";
 import BlogPostThirty from "./components/posts/super-charging-your-retirement-balance-before-retirement";
 import BlogPostThirtyOne from "./components/posts/how-much-would-1000-invested-10-years-ago-be-worth-today";
+import BlogPostThirtyTwo from "./components/posts/unrelased-cgt-on-super-balance-over-3m";
+import BlogPostThirtyThree from "./components/posts/tax-planning-to-reduce-your-tax-before-june-2025";
+import BlogPostThirtyFour from "./components/posts/tax-changes-from-1-july-2025";
+import BlogPostThirtyFive from "./components/posts/maximise-your-2025-tax-refund";
+import BlogPostThirtySix from "./components/posts/ato-tax-rates-for-individuals-tax-residents";
 
 const tagManagerArgs = {
   // Add GTM container ID
@@ -112,6 +117,11 @@ root.render(
       <Route path="/employee-share-schemes" render={(props) => <BlogPostTwentyNine {...props} />} />
       <Route path="/super-charging-your-retirement-balance-before-retirement" render={(props) => <BlogPostThirty {...props} />} />
       <Route path="/how-much-would-1000-invested-10-years-ago-be-worth-today" render={(props) => <BlogPostThirtyOne {...props} />} />
+      <Route path="/unrelased-cgt-on-super-balance-over-3m" render={(props) => <BlogPostThirtyTwo {...props} />} />
+      <Route path="/tax-planning-to-reduce-your-tax-before-june-2025" render={(props) => <BlogPostThirtyThree {...props} />} />
+      <Route path="/tax-changes-from-1-july-2025" render={(props) => <BlogPostThirtyFour {...props} />} />
+      <Route path="/maximise-your-2025-tax-refund" render={(props) => <BlogPostThirtyFive {...props} />} />
+      <Route path="/ato-tax-rates-for-individuals-tax-residents" render={(props) => <BlogPostThirtySix {...props} />} />
 
       <Redirect to="/home" />
     </Switch>
