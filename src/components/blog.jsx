@@ -19,6 +19,45 @@ const Blog = () => {
 
       <div className="content">
         <div className="blog-post">
+          <Link className="blog-link" to="/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-39.jpg")}
+              alt=""
+            />
+            <h2>What Kind of Repairs and Maintenance Can Be Expensed Immediately Or Need to Be Depreciated for Investment Properties?</h2>
+            <p>Posted <span className="date">March 2, 2026</span></p>
+            <p className="description">If you own an investment property rented out to tenants, you can claim an immediate expense for: Items costing less than $300...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/meals-what-can-and-cant-be-claimed">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-38.jpg")}
+              alt=""
+            />
+            <h2>Meals - What Can and {`Can't`} Be Claimed</h2>
+            <p>Posted <span className="date">March 2, 2026</span></p>
+            <p className="description">Sometimes it can be confusing to know when meals can be tax deductible by the ATO and when they {`can't`}. Meals are not deductible if the travel does not involve...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
+          <Link className="blog-link" to="/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards">
+            <img
+              className="blog-img"
+              src={require("../styles/images/posts/post-37.jpg")}
+              alt=""
+            />
+            <h2>ATO Interest Can No Longer Be Claimed from FY 2026 Onwards</h2>
+            <p>Posted <span className="date">March 2, 2026</span></p>
+            <p className="description">From 1 July 2025, ATO interest charges, including the General Interest Charge and Shortfall Interest Charge, are no longer tax-deductible for any taxpayer...</p>
+          </Link>
+        </div>
+
+        <div className="blog-post">
           <Link className="blog-link" to="/ato-tax-rates-for-individuals-tax-residents">
             <img
               className="blog-img"
@@ -391,7 +430,7 @@ const Blog = () => {
             />
             <h2>Downsizer Superannuation Contributions Changes from 1 January 2023</h2>
             <p>Posted <span className="date">January 10, 2023</span></p>
-            <p className="description">From 1 January 2023, people aged 55 years and over are eligible to make downsizer contributions into super from the sale of their home....</p>
+            <p className="description">From 1 January 2023, people aged 55 years and over are eligible to make downsizer contributions into super from the sale of their home...</p>
           </Link>
         </div>
 

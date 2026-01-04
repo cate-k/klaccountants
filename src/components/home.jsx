@@ -213,6 +213,26 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <div className="review-links-container">
+          <a
+            className="animated-link"
+            href="https://share.google/4CvPiQbQhps0MoRB5"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>See our Google Reviews</span>
+          </a>
+
+          <a
+            className="animated-link"
+            href="https://www.bark.com/en/au/b/kl-accountants-pty-ltd/wygZR/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>See our Bark.com Reviews</span>
+          </a>
+        </div>
         <br />
 
         <div className="parallax-container">

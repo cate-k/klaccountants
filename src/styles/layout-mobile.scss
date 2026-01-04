@@ -504,6 +504,46 @@ p, li {
   margin-top: 10%;
 }
 
+.animated-link {
+  background-color: var(--colour-venice-blue);
+  border-radius: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 75%;
+  display: block;
+  margin: auto;
+  margin-bottom: 5%;
+  padding: 8%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.animated-link span {
+  color: var(--colour-white);
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.animated-link span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.animated-link:hover span {
+  color: var(--colour-white);
+  padding-right: 25px;
+}
+
+.animated-link:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .parallax-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(29, 29, 29, 0.7)), url(images/papers-on-table.jpg);
   color: var(--colour-white);
@@ -964,6 +1004,18 @@ p, li {
 
 .blog-post-thirty-six {
   background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-36.jpg);
+}
+
+.blog-post-thirty-seven {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-37.jpg);
+}
+
+.blog-post-thirty-eight {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-38.jpg);
+}
+
+.blog-post-thirty-nine {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-39.jpg);
 }
 
 // Services

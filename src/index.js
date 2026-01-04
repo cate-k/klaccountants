@@ -56,6 +56,9 @@ import BlogPostThirtyThree from "./components/posts/tax-planning-to-reduce-your-
 import BlogPostThirtyFour from "./components/posts/tax-changes-from-1-july-2025";
 import BlogPostThirtyFive from "./components/posts/maximise-your-2025-tax-refund";
 import BlogPostThirtySix from "./components/posts/ato-tax-rates-for-individuals-tax-residents";
+import BlogPostThirtySeven from "./components/posts/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards";
+import BlogPostThirtyEight from "./components/posts/meals-what-can-and-cant-be-claimed";
+import BlogPostThirtyNine from "./components/posts/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately";
 
 const tagManagerArgs = {
   // Add GTM container ID
@@ -122,6 +125,9 @@ root.render(
       <Route path="/tax-changes-from-1-july-2025" render={(props) => <BlogPostThirtyFour {...props} />} />
       <Route path="/maximise-your-2025-tax-refund" render={(props) => <BlogPostThirtyFive {...props} />} />
       <Route path="/ato-tax-rates-for-individuals-tax-residents" render={(props) => <BlogPostThirtySix {...props} />} />
+      <Route path="/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards" render={(props) => <BlogPostThirtySeven {...props} />} />
+      <Route path="/meals-what-can-and-cant-be-claimed" render={(props) => <BlogPostThirtyEight {...props} />} />
+      <Route path="/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately" render={(props) => <BlogPostThirtyNine {...props} />} />
 
       <Redirect to="/home" />
     </Switch>
