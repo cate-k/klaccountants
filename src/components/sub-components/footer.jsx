@@ -8,7 +8,10 @@ const Footer = () => {
         <div className="col-one">
           <h2>Contact Us</h2>
           <p>{`Don't`} hesistate to contact us.</p>
-          <p>KL Accountants Pty Ltd</p>
+          <p>
+            KL Accountants Pty Ltd ACN 618 931 178 as trustee for KLA Unit Trust
+            ABN 33 196 881 289
+          </p>
           <br />
 
           <p className="footer-heading">Office Address</p>
@@ -54,7 +57,10 @@ const Footer = () => {
           />
           <h2>Tax Agent</h2>
           <p>25620586</p>
-          <p>Tax is a complicated matter. It can cause big problems if you ignore it. Let us help you!</p>
+          <p>
+            Tax is a complicated matter. It can cause big problems if you ignore
+            it. Let us help you!
+          </p>
 
           <div className="footer-badges">
             <img
@@ -100,7 +106,10 @@ const Footer = () => {
       </div>
 
       <div className="footer-year">
-        <p>&copy; 2017 - {new Date().getFullYear()} KL Accountants. All rights reserved.</p>
+        <p>
+          &copy; 2017 - {new Date().getFullYear()} KL Accountants. All rights
+          reserved.
+        </p>
       </div>
     </div>
   );

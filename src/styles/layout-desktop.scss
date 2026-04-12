@@ -58,6 +58,10 @@
 
   .col-one {
     width: 50%;
+
+    p {
+      width: 75%;
+    }
   }
 
   .col-two {
@@ -136,8 +140,9 @@
     }
 
     li {
+      width: 60%;
       margin: 1%;
-      margin-left: 18%;
+      margin-left: 15%;
     }
 
     .policy-heading {
