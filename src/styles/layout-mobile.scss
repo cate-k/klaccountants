@@ -1,5 +1,6 @@
 // General settings
-p, li {
+p,
+li {
   font-size: 1.5rem;
 }
 
@@ -132,12 +133,12 @@ p, li {
 }
 
 .menu-button::before {
-  content: '';
+  content: "";
   margin-top: -8px;
 }
 
 .menu-button::after {
-  content: '';
+  content: "";
   margin-top: 8px;
 }
 
@@ -276,14 +277,17 @@ p, li {
 
 // Privacy Policy
 .privacy-policy {
-  h1, h2, p {
+  h1,
+  h2,
+  p {
     width: 85%;
     margin: auto;
     margin-top: 6%;
     margin-bottom: 6%;
   }
 
-  h1, .policy-heading {
+  h1,
+  .policy-heading {
     color: var(--colour-black);
   }
 
@@ -448,7 +452,9 @@ p, li {
 }
 
 .home-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/team.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/team.jpg);
   color: var(--colour-white);
   background-size: cover;
   background-position: center;
@@ -545,7 +551,9 @@ p, li {
 }
 
 .parallax-container {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(29, 29, 29, 0.7)), url(images/papers-on-table.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(29, 29, 29, 0.7)),
+    url(images/papers-on-table.jpg);
   color: var(--colour-white);
   min-height: 780px;
   background-attachment: fixed;
@@ -770,7 +778,9 @@ p, li {
 }
 
 .about-us-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/workplace.jpeg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/workplace.jpeg);
 }
 
 // Blog
@@ -778,8 +788,9 @@ p, li {
   width: 85%;
   margin: auto;
   margin-bottom: 15%;
-  
-  h2, .date {
+
+  h2,
+  .date {
     color: var(--colour-black);
     line-height: 2rem;
   }
@@ -821,7 +832,8 @@ p, li {
   height: 500px;
   color: var(--colour-white);
 
-  h1, .date {
+  h1,
+  .date {
     text-align: center;
     margin: 0;
   }
@@ -842,7 +854,8 @@ p, li {
 .blog-post-table {
   border-collapse: collapse;
 
-  th, td {
+  th,
+  td {
     border: 1px solid var(--colour-boulder);
     padding: 8px;
     padding-left: 10px;
@@ -863,159 +876,255 @@ p, li {
 }
 
 .blog-post-one {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-1.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-1.jpg);
 }
 
 .blog-post-two {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-2.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-2.jpg);
 }
 
 .blog-post-three {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-3.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-3.jpg);
 }
 
 .blog-post-four {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-4.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-4.jpg);
 }
 
 .blog-post-five {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-5.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-5.jpg);
 }
 
 .blog-post-six {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-6.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-6.jpg);
 }
 
 .blog-post-seven {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-7.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-7.jpg);
 }
 
 .blog-post-eight {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-8.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-8.jpg);
 }
 
 .blog-post-nine {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-9.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-9.jpg);
 }
 
 .blog-post-ten {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-10.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-10.jpg);
 }
 
 .blog-post-eleven {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-11.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-11.jpg);
 }
 
 .blog-post-twelve {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-12.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-12.jpg);
 }
 
 .blog-post-thirteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-13.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-13.jpg);
 }
 
 .blog-post-fourteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-14.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-14.jpg);
 }
 
 .blog-post-fifteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-15.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-15.jpg);
 }
 
 .blog-post-sixteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-16.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-16.jpg);
 }
 
 .blog-post-seventeen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-17.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-17.jpg);
 }
 
 .blog-post-eighteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-18.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-18.jpg);
 }
 
 .blog-post-nineteen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-19.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-19.jpg);
 }
 
 .blog-post-twenty {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-20.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-20.jpg);
 }
 
 .blog-post-twenty-one {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-21.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-21.jpg);
 }
 
 .blog-post-twenty-two {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-22.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-22.jpg);
 }
 
 .blog-post-twenty-three {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-23.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-23.jpg);
 }
 
 .blog-post-twenty-four {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-24.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-24.jpg);
 }
 
 .blog-post-twenty-five {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-25.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-25.jpg);
 }
 
 .blog-post-twenty-six {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-26.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-26.jpg);
 }
 
 .blog-post-twenty-seven {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-27.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-27.jpg);
 }
 
 .blog-post-twenty-eight {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-28.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-28.jpg);
 }
 
 .blog-post-twenty-nine {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-29.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-29.jpg);
 }
 
 .blog-post-thirty {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-30.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-30.jpg);
 }
 
 .blog-post-thirty-one {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-31.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-31.jpg);
 }
 
 .blog-post-thirty-two {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-32.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-32.jpg);
 }
 
 .blog-post-thirty-three {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-33.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-33.jpg);
 }
 
 .blog-post-thirty-four {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-34.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-34.jpg);
 }
 
 .blog-post-thirty-five {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-35.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-35.jpg);
 }
 
 .blog-post-thirty-six {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-36.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-36.jpg);
 }
 
 .blog-post-thirty-seven {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-37.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-37.jpg);
 }
 
 .blog-post-thirty-eight {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-38.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-38.jpg);
 }
 
 .blog-post-thirty-nine {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.540), rgba(0, 0, 0, 0.520)), url(images/posts/post-39.jpg);
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-39.jpg);
+}
+
+.blog-post-forty {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-40.jpg);
+}
+
+.blog-post-forty-one {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-41.jpg);
+}
+
+.blog-post-forty-two {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.52)),
+    url(images/posts/post-42.jpg);
 }
 
 // Services
@@ -1044,7 +1153,9 @@ p, li {
 }
 
 .services-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/laptop-on-table.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/laptop-on-table.jpg);
 }
 
 .info-links {
@@ -1094,43 +1205,61 @@ p, li {
 }
 
 .service-one-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/person-using-calculator.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/person-using-calculator.jpg);
 }
 
 .service-two-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/coffee-shop.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/coffee-shop.jpg);
 }
 
 .service-three-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/people-talking.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/people-talking.jpg);
 }
 
 .service-four-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/person-looking-at-papers.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/person-looking-at-papers.jpg);
 }
 
 .service-five-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/person-working-on-laptop.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/person-working-on-laptop.jpg);
 }
 
 .service-six-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/person-on-hill.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/person-on-hill.jpg);
 }
 
 .service-seven-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/services-info/person-talking.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/services-info/person-talking.jpg);
 }
 
 // Free Resources
 .free-resources {
-  h1, h2, .disclaimer {
+  h1,
+  h2,
+  .disclaimer {
     width: 85%;
     margin: auto;
     margin-top: 6%;
     margin-bottom: 6%;
   }
 
-  h1, h2, .heading {
+  h1,
+  h2,
+  .heading {
     color: var(--colour-black);
   }
 
@@ -1146,7 +1275,8 @@ p, li {
     font-family: "Josefin Sans Bold";
   }
 
-  p, .links {
+  p,
+  .links {
     line-height: 1.8rem;
   }
 
@@ -1173,7 +1303,9 @@ p, li {
 }
 
 .contact-us-banner {
-  background-image: linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)), url(images/people-working.jpg);
+  background-image:
+    linear-gradient(rgba(60, 83, 185, 0.76), rgba(60, 83, 185, 0.76)),
+    url(images/people-working.jpg);
 
   h1 {
     padding-top: 20%;

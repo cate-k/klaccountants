@@ -59,10 +59,13 @@ import BlogPostThirtySix from "./components/posts/ato-tax-rates-for-individuals-
 import BlogPostThirtySeven from "./components/posts/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards";
 import BlogPostThirtyEight from "./components/posts/meals-what-can-and-cant-be-claimed";
 import BlogPostThirtyNine from "./components/posts/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately";
+import BlogPostForty from "./components/posts/how-australias-anti-money-laundering-and-counter-terrorism-financing-reforms-may-affect-you-from-1-july-2026";
+import BlogPostFortyOne from "./components/posts/new-division-296-tax-on-superannuation-balances-over-3-million-for-each-member";
+import BlogPostFortyTwo from "./components/posts/payday-super-from-1-july-2026-what-your-business-needs-to-know";
 
 const tagManagerArgs = {
   // Add GTM container ID
-  gtmId: process.env.REACT_APP_GTM_ID
+  gtmId: process.env.REACT_APP_GTM_ID,
 };
 
 TagManager.initialize(tagManagerArgs);
@@ -77,59 +80,215 @@ root.render(
       <Route path="/blog" render={(props) => <Blog {...props} />} />
       <Route path="/services" render={(props) => <Services {...props} />} />
       <Route path="/faqs" render={(props) => <FAQs {...props} />} />
-      <Route path="/free-resources" render={(props) => <FreeResources {...props} />} />
+      <Route
+        path="/free-resources"
+        render={(props) => <FreeResources {...props} />}
+      />
       <Route path="/contact-us" render={(props) => <ContactUs {...props} />} />
-      <Route path="/privacy-policy" render={(props) => <PrivacyPolicy {...props} />} />
+      <Route
+        path="/privacy-policy"
+        render={(props) => <PrivacyPolicy {...props} />}
+      />
 
-      <Route path="/personal-tax-returns-for-individuals-and-sole-traders" render={(props) => <ServicesOne {...props} />} />
-      <Route path="/small-business-accounting-and-tax" render={(props) => <ServicesTwo {...props} />} />
-      <Route path="/company-structure-and-tax-returns" render={(props) => <ServicesThree {...props} />} />
-      <Route path="/trust-tax-returns" render={(props) => <ServicesFour {...props} />} />
-      <Route path="/smsfs-accounting-and-compliance" render={(props) => <ServicesFive {...props} />} />
-      <Route path="/life-insurance-and-income-protection-insurance" render={(props) => <ServicesSix {...props} />} />
-      <Route path="/virtual-cfo-and-outsourced-accountant-plans" render={(props) => <ServicesSeven {...props} />} />
+      <Route
+        path="/personal-tax-returns-for-individuals-and-sole-traders"
+        render={(props) => <ServicesOne {...props} />}
+      />
+      <Route
+        path="/small-business-accounting-and-tax"
+        render={(props) => <ServicesTwo {...props} />}
+      />
+      <Route
+        path="/company-structure-and-tax-returns"
+        render={(props) => <ServicesThree {...props} />}
+      />
+      <Route
+        path="/trust-tax-returns"
+        render={(props) => <ServicesFour {...props} />}
+      />
+      <Route
+        path="/smsfs-accounting-and-compliance"
+        render={(props) => <ServicesFive {...props} />}
+      />
+      <Route
+        path="/life-insurance-and-income-protection-insurance"
+        render={(props) => <ServicesSix {...props} />}
+      />
+      <Route
+        path="/virtual-cfo-and-outsourced-accountant-plans"
+        render={(props) => <ServicesSeven {...props} />}
+      />
 
-      <Route path="/a-reminder-on-superannuation-contributions-cap-for-2021-2022" render={(props) => <BlogPostOne {...props} />} />
-      <Route path="/single-touch-payroll-stp-phase-2-for-businesses-with-employees" render={(props) => <BlogPostTwo {...props} />} />
-      <Route path="/financial-resolutions-for-the-new-year" render={(props) => <BlogPostThree {...props} />} />
-      <Route path="/company-directors-need-to-apply-for-a-new-director-id" render={(props) => <BlogPostFour {...props} />} />
-      <Route path="/end-of-financial-year-2022-reminders" render={(props) => <BlogPostFive {...props} />} />
-      <Route path="/some-considerations-from-1-july-2022" render={(props) => <BlogPostSix {...props} />} />
-      <Route path="/how-bad-can-it-get-managing-risk-in-a-bear-market" render={(props) => <BlogPostSeven {...props} />} />
-      <Route path="/downsizer-superannuation-contributions-changes" render={(props) => <BlogPostEight {...props} />} />
-      <Route path="/most-common-tax-deductions-for-wage-employees" render={(props) => <BlogPostNine {...props} />} />
-      <Route path="/self-managed-superannuation-funds-vs-industry-superannuation-funds" render={(props) => <BlogPostTen {...props} />} />
-      <Route path="/reviewing-your-life-and-income-protection-insurance-needs" render={(props) => <BlogPostEleven {...props} />} />
-      <Route path="/revised-fixed-rate-method-for-calculating-work-from-home-deductions" render={(props) => <BlogPostTwelve {...props} />} />
-      <Route path="/small-business-owners-get-instant-asset-write-off-before-30-june-2023" render={(props) => <BlogPostThirteen {...props} />} />
-      <Route path="/proposed-government-changes-to-superannuation-for-balances-over-3-million" render={(props) => <BlogPostFourteen {...props} />} />
-      <Route path="/end-of-financial-year-tax-planning" render={(props) => <BlogPostFifteen {...props} />} />
-      <Route path="/some-key-takeaways-from-the-federal-budget-of-9-may-2023" render={(props) => <BlogPostSixteen {...props} />} />
-      <Route path="/10-reasons-owning-your-home-beats-super" render={(props) => <BlogPostSeventeen {...props} />} />
-      <Route path="/why-do-60-of-small-businesses-fail-in-their-first-three-years" render={(props) => <BlogPostEighteen {...props} />} />
-      <Route path="/when-should-you-change-your-business-from-a-sole-trader-to-a-company-structure" render={(props) => <BlogPostNineteen {...props} />} />
-      <Route path="/how-to-spot-scammers-impersonating-the-australian-tax-office" render={(props) => <BlogPostTwenty {...props} />} />
-      <Route path="/property-investors-take-note" render={(props) => <BlogPostTwentyOne {...props} />} />
-      <Route path="/setting-up-a-foreign-company-in-a-low-tax-country" render={(props) => <BlogPostTwentyTwo {...props} />} />
-      <Route path="/proposed-tax-on-super-balances-over-3m" render={(props) => <BlogPostTwentyThree {...props} />} />
-      <Route path="/small-business-20k-instant-asset-write-off-until-30-june-2024" render={(props) => <BlogPostTwentyFour {...props} />} />
-      <Route path="/ato-tax-rate-changes-from-1-july-2024" render={(props) => <BlogPostTwentyFive {...props} />} />
-      <Route path="/buying-an-electric-vehicle-for-your-business-with-fbt-exemption" render={(props) => <BlogPostTwentySix {...props} />} />
-      <Route path="/tax-planning-before-30-june-2024" render={(props) => <BlogPostTwentySeven {...props} />} />
-      <Route path="/tax-reminders-for-june-and-july" render={(props) => <BlogPostTwentyEight {...props} />} />
-      <Route path="/employee-share-schemes" render={(props) => <BlogPostTwentyNine {...props} />} />
-      <Route path="/super-charging-your-retirement-balance-before-retirement" render={(props) => <BlogPostThirty {...props} />} />
-      <Route path="/how-much-would-1000-invested-10-years-ago-be-worth-today" render={(props) => <BlogPostThirtyOne {...props} />} />
-      <Route path="/unrelased-cgt-on-super-balance-over-3m" render={(props) => <BlogPostThirtyTwo {...props} />} />
-      <Route path="/tax-planning-to-reduce-your-tax-before-june-2025" render={(props) => <BlogPostThirtyThree {...props} />} />
-      <Route path="/tax-changes-from-1-july-2025" render={(props) => <BlogPostThirtyFour {...props} />} />
-      <Route path="/maximise-your-2025-tax-refund" render={(props) => <BlogPostThirtyFive {...props} />} />
-      <Route path="/ato-tax-rates-for-individuals-tax-residents" render={(props) => <BlogPostThirtySix {...props} />} />
-      <Route path="/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards" render={(props) => <BlogPostThirtySeven {...props} />} />
-      <Route path="/meals-what-can-and-cant-be-claimed" render={(props) => <BlogPostThirtyEight {...props} />} />
-      <Route path="/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately" render={(props) => <BlogPostThirtyNine {...props} />} />
+      <Route
+        path="/a-reminder-on-superannuation-contributions-cap-for-2021-2022"
+        render={(props) => <BlogPostOne {...props} />}
+      />
+      <Route
+        path="/single-touch-payroll-stp-phase-2-for-businesses-with-employees"
+        render={(props) => <BlogPostTwo {...props} />}
+      />
+      <Route
+        path="/financial-resolutions-for-the-new-year"
+        render={(props) => <BlogPostThree {...props} />}
+      />
+      <Route
+        path="/company-directors-need-to-apply-for-a-new-director-id"
+        render={(props) => <BlogPostFour {...props} />}
+      />
+      <Route
+        path="/end-of-financial-year-2022-reminders"
+        render={(props) => <BlogPostFive {...props} />}
+      />
+      <Route
+        path="/some-considerations-from-1-july-2022"
+        render={(props) => <BlogPostSix {...props} />}
+      />
+      <Route
+        path="/how-bad-can-it-get-managing-risk-in-a-bear-market"
+        render={(props) => <BlogPostSeven {...props} />}
+      />
+      <Route
+        path="/downsizer-superannuation-contributions-changes"
+        render={(props) => <BlogPostEight {...props} />}
+      />
+      <Route
+        path="/most-common-tax-deductions-for-wage-employees"
+        render={(props) => <BlogPostNine {...props} />}
+      />
+      <Route
+        path="/self-managed-superannuation-funds-vs-industry-superannuation-funds"
+        render={(props) => <BlogPostTen {...props} />}
+      />
+      <Route
+        path="/reviewing-your-life-and-income-protection-insurance-needs"
+        render={(props) => <BlogPostEleven {...props} />}
+      />
+      <Route
+        path="/revised-fixed-rate-method-for-calculating-work-from-home-deductions"
+        render={(props) => <BlogPostTwelve {...props} />}
+      />
+      <Route
+        path="/small-business-owners-get-instant-asset-write-off-before-30-june-2023"
+        render={(props) => <BlogPostThirteen {...props} />}
+      />
+      <Route
+        path="/proposed-government-changes-to-superannuation-for-balances-over-3-million"
+        render={(props) => <BlogPostFourteen {...props} />}
+      />
+      <Route
+        path="/end-of-financial-year-tax-planning"
+        render={(props) => <BlogPostFifteen {...props} />}
+      />
+      <Route
+        path="/some-key-takeaways-from-the-federal-budget-of-9-may-2023"
+        render={(props) => <BlogPostSixteen {...props} />}
+      />
+      <Route
+        path="/10-reasons-owning-your-home-beats-super"
+        render={(props) => <BlogPostSeventeen {...props} />}
+      />
+      <Route
+        path="/why-do-60-of-small-businesses-fail-in-their-first-three-years"
+        render={(props) => <BlogPostEighteen {...props} />}
+      />
+      <Route
+        path="/when-should-you-change-your-business-from-a-sole-trader-to-a-company-structure"
+        render={(props) => <BlogPostNineteen {...props} />}
+      />
+      <Route
+        path="/how-to-spot-scammers-impersonating-the-australian-tax-office"
+        render={(props) => <BlogPostTwenty {...props} />}
+      />
+      <Route
+        path="/property-investors-take-note"
+        render={(props) => <BlogPostTwentyOne {...props} />}
+      />
+      <Route
+        path="/setting-up-a-foreign-company-in-a-low-tax-country"
+        render={(props) => <BlogPostTwentyTwo {...props} />}
+      />
+      <Route
+        path="/proposed-tax-on-super-balances-over-3m"
+        render={(props) => <BlogPostTwentyThree {...props} />}
+      />
+      <Route
+        path="/small-business-20k-instant-asset-write-off-until-30-june-2024"
+        render={(props) => <BlogPostTwentyFour {...props} />}
+      />
+      <Route
+        path="/ato-tax-rate-changes-from-1-july-2024"
+        render={(props) => <BlogPostTwentyFive {...props} />}
+      />
+      <Route
+        path="/buying-an-electric-vehicle-for-your-business-with-fbt-exemption"
+        render={(props) => <BlogPostTwentySix {...props} />}
+      />
+      <Route
+        path="/tax-planning-before-30-june-2024"
+        render={(props) => <BlogPostTwentySeven {...props} />}
+      />
+      <Route
+        path="/tax-reminders-for-june-and-july"
+        render={(props) => <BlogPostTwentyEight {...props} />}
+      />
+      <Route
+        path="/employee-share-schemes"
+        render={(props) => <BlogPostTwentyNine {...props} />}
+      />
+      <Route
+        path="/super-charging-your-retirement-balance-before-retirement"
+        render={(props) => <BlogPostThirty {...props} />}
+      />
+      <Route
+        path="/how-much-would-1000-invested-10-years-ago-be-worth-today"
+        render={(props) => <BlogPostThirtyOne {...props} />}
+      />
+      <Route
+        path="/unrelased-cgt-on-super-balance-over-3m"
+        render={(props) => <BlogPostThirtyTwo {...props} />}
+      />
+      <Route
+        path="/tax-planning-to-reduce-your-tax-before-june-2025"
+        render={(props) => <BlogPostThirtyThree {...props} />}
+      />
+      <Route
+        path="/tax-changes-from-1-july-2025"
+        render={(props) => <BlogPostThirtyFour {...props} />}
+      />
+      <Route
+        path="/maximise-your-2025-tax-refund"
+        render={(props) => <BlogPostThirtyFive {...props} />}
+      />
+      <Route
+        path="/ato-tax-rates-for-individuals-tax-residents"
+        render={(props) => <BlogPostThirtySix {...props} />}
+      />
+      <Route
+        path="/ato-interest-can-no-longer-be-claimed-from-fy-2026-onwards"
+        render={(props) => <BlogPostThirtySeven {...props} />}
+      />
+      <Route
+        path="/meals-what-can-and-cant-be-claimed"
+        render={(props) => <BlogPostThirtyEight {...props} />}
+      />
+      <Route
+        path="/what-kind-of-repairs-and-maintenance-can-be-expensed-immediately"
+        render={(props) => <BlogPostThirtyNine {...props} />}
+      />
+      <Route
+        path="/how-australias-anti-money-laundering-and-counter-terrorism-financing-reforms-may-affect-you-from-1-july-2026"
+        render={(props) => <BlogPostForty {...props} />}
+      />
+      <Route
+        path="/new-division-296-tax-on-superannuation-balances-over-3-million-for-each-member"
+        render={(props) => <BlogPostFortyOne {...props} />}
+      />
+      <Route
+        path="/payday-super-from-1-july-2026-what-your-business-needs-to-know"
+        render={(props) => <BlogPostFortyTwo {...props} />}
+      />
 
       <Redirect to="/home" />
     </Switch>
-  </HashRouter>
+  </HashRouter>,
 );
